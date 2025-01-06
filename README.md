@@ -1,4 +1,4 @@
-# ConsoleIQ
+﻿# ConsoleIQ
 
 A console-based quiz application that allows users to test their knowledge on various topics. Built with C#, **ConsoleIQ** demonstrates key software development principles, including object-oriented programming, data serialization, and user interaction in a console environment.
 
@@ -129,19 +129,19 @@ dotnet run
 
 ```
 ConsoleIQ/
-??? ConsoleIQ.sln               # Visual Studio solution file
-??? ConsoleIQ.csproj            # Project file
-??? Program.cs                  # Entry point of the application
-??? ManagerLogic/
-?   ??? QuizManager.cs          # Handles quiz operations
-??? Models/
-?   ??? Question.cs             # Base class for questions
-?   ??? MultipleChoiceQuestion.cs  # Derived class for multiple-choice questions
-?   ??? RawQuestion.cs          # Represents questions deserialized from JSON
-??? QuestionSet.json            # JSON file containing quiz questions
-??? README.md                   # Project documentation
-??? bin/                        # Build outputs
-??? obj/                        # Build intermediates
+├── ConsoleIQ.sln               # Visual Studio solution file
+├── ConsoleIQ.csproj            # Project file
+├── Program.cs                  # Entry point of the application
+├── ManagerLogic/
+│   └── QuizManager.cs          # Handles quiz operations
+├── Models/
+│   ├── Question.cs             # Base class for questions
+│   ├── MultipleChoiceQuestion.cs  # Derived class for multiple-choice questions
+│   └── RawQuestion.cs          # Represents questions deserialized from JSON
+├── QuestionSet.json            # JSON file containing quiz questions
+├── README.md                   # Project documentation
+├── bin/                        # Build outputs
+└── obj/                        # Build intermediates
 ```
 
 ---
