@@ -16,6 +16,6 @@ namespace ConsoleIQ.Models
         public string Type { get; set; }
         public string Prompt { get; set; }
         public string Answer { get; set; }
-        public string[] Options { get; set; } // Only used for multiple choice questions
+        public string[] Options { get; set; }
     }
 }

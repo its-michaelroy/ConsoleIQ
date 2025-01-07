@@ -170,4 +170,4 @@ ConsoleIQ/
 
 ---
 
-*For any questions or suggestions, feel free to reach out via GitHub or open an issue.*
+*Enjoy!*

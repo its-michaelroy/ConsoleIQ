@@ -23,10 +23,6 @@ namespace ConsoleIQ
             string jsonString = File.ReadAllText("QuestionSet.json");
             var allTopics = JsonSerializer.Deserialize<Dictionary<string, List<RawQuestion>>>(jsonString);
 
-            //Console.WriteLine(jsonString);
-            //Console.WriteLine("-------------------------");
-            //Console.WriteLine(allTopics.Count);
-
             // Validate topics
             if (allTopics == null || allTopics.Count == 0)
             {
